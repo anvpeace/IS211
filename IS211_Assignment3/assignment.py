@@ -9,7 +9,7 @@ from datetime import datetime
 # Personal Notes to help me understand better:
 # uses regex to search for files ending in 'jpg', 'gif', 'png' and stores data in a variable
 # ignore case mode can be removed but gave issues when image type was capitalized
-# .IGNORECASE essentially ignores the case of the letter
+# .IGNORECASE method essentially ignores the case of the letter
 IMAGE_RE = re.compile(r"\.(jpg|gif|png)$", re.IGNORECASE)
 
 
